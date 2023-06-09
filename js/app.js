@@ -7,7 +7,6 @@ formElement.addEventListener("submit", (e) => {
   const nameElement = document.getElementById("name");
   const emailElement = document.getElementById("email");
 
-
   let nameValue = nameElement.value;
   let emailValue = emailElement.value;
   
@@ -16,11 +15,11 @@ formElement.addEventListener("submit", (e) => {
   emailElement.classList.remove("redborder");
   
   if (nameValue == "") {
-    errorElement.innerText = "Name is required!";
+    errorElement.innerText += "Name is required!";
     nameElement.classList.add("redborder");
   }
   if (emailValue == "") {
-    errorElement.innerText = "Enter your email!";
+    errorElement.innerText += "Enter your email!";
     emailElement.classList.add("redborder");
   }
     console.log("good to go");
