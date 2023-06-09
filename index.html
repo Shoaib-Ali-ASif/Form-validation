@@ -9,26 +9,29 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <form id="form">
+    <form action="/" id="form">
       <h1>Form Validation</h1>
+      <div id="error" class="redtext"></div>
       <div class="div">
-        <label  for="name">Name : </label>
-        <input class="style" id="name" placeholder="Enter your Name" type="name">
+        <label for="name">Name : </label>
+        <input
+          class="style"
+          id="name"
+          placeholder="Enter your Name"
+          type="name"
+        />
       </div>
       <div class="div">
-        <label  for="email">Email : </label>
-        <input class="style" id="email" placeholder="Enter your email" type="email">
-      </div>
-      <div class="div">
-        <label  for="password">Password : </label>
-        <input class="style" id="Password" placeholder="Enter your email" type="password">
-      </div>
-      <div class="div">
-        <label  for="password-confirmation">Confirm Password : </label>
-        <input class="style" id="Password-confirmation" placeholder="Confirm your password" type="password">
+        <label for="email">Email : </label>
+        <input
+          class="style"
+          id="email"
+          placeholder="Enter your email"
+          type="email"
+        />
       </div>
       <!-- <button id="submit" value="submit">Sign Up</button> -->
-      <input type="submit" value="SIGN UP" id="submit">
+      <input type="submit" value="SIGN UP" id="submit" />
     </form>
   </body>
 </html>

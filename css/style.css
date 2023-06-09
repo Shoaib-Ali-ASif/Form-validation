@@ -5,6 +5,13 @@ padding: 0%;
 box-sizing: border-box;
 font-size: x-large;
 }
+.redtext{
+    color: red;
+}
+.redborder{
+    border: 1px solid red;
+    border-radius: 3px;
+}
 
 #form{
     margin: auto;
@@ -12,6 +19,7 @@ font-size: x-large;
     text-align: center;
     justify-content: center;
     background-color: lightgreen;
+    border-radius: 10px;
 }
 .div{
     padding: 20px;
@@ -26,10 +34,5 @@ font-size: x-large;
 #submit{
     padding: 10px;
     width: 150px;
-    background-color: green;
-    color: aliceblue;
     cursor: pointer;
-}
-#submit:hover{
-    background-color: rgb(94, 130, 94);
 }
